@@ -11,18 +11,23 @@
   "dependencies": {
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.473.0",
     "next": "14.2.15",
     "next-sanity": "^9.8.37",
+    "node-fetch": "^3.3.2",
     "react": "^18",
     "react-dom": "^18",
     "react-is": "^19.0.0",
     "sanity": "^3.70.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "postcss": "^8",
