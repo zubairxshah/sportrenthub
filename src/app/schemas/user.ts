@@ -22,6 +22,14 @@ export default {
         hidden: true
       },
       {
+        name: 'image',
+        title: 'Profile Image',
+        type: 'image',
+        options: {
+          hotspot: true
+        }
+      },
+      {
         name: 'phoneNumber',
         title: 'Phone Number',
         type: 'string',

@@ -12,6 +12,12 @@ export default defineType({
         to: [{ type: 'user' }]
       }),
       defineField({
+        name: 'userImage',
+        title: 'User Image',
+        type: 'reference',
+        to: [{ type: 'user' }],
+      }),
+      defineField({
         name: 'equipmentID', 
         title: 'Equipment ID',
         type: 'reference',

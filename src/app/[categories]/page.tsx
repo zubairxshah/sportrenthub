@@ -1,4 +1,4 @@
-// app/categories/page.tsx
+// app/[categories]/page.tsx
 import { client } from '@/sanity/lib/client';
 import { categoriesQuery } from '../queries/categoryQueries';
 import CategoryCard from '../components/CategoyCard'
